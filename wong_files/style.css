@@ -1,0 +1,81 @@
+a {
+  color: #3333ff;
+  cursor: pointer;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0000cc;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+body {
+  background: #fefefe;
+  text-align: center;
+}
+
+figcaption {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+hr.splitter {
+  border: 0;
+  height: 2px;
+  background: #676;
+  background-image: -webkit-linear-gradient(left, #eee, #aaa, #eee); 
+  background-image:    -moz-linear-gradient(left, #eee, #aaa, #eee); 
+  background-image:     -ms-linear-gradient(left, #eee, #aaa, #eee); 
+  background-image:      -o-linear-gradient(left, #eee, #aaa, #eee); 
+}
+
+.all-content {
+  display: inline-block;
+  width: 63%;
+  top: 20px;
+  bottom: 20px;
+  min-width: 650px;
+  max-width: 900px;
+  background: #fefefe;
+  margin-top: 20px;
+  padding: 10px;
+  font: normal 14pt geneva,tahoma,verdana, sans-serif;
+  text-align: center;
+}
+
+.banner {
+  height: 25%;
+}
+
+.footer {
+  margin: 20px 10px 20px 10px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.main-content {
+  display: inline-block;
+  width: 700px;
+  margin: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: justify;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.nav {
+  top: 25%;
+  height: 40px
+}
+
+.research-card {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
